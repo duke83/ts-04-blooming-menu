@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bloomingMenu.css">
+</head>
+<body ng-app="app" style="position:absolute; left:0; right:0; top:0;bottom:0; overflow: auto;">
+
+
+<blooming-menu></blooming-menu>
+
+
+The blooming-menu directive can be placed anywhere on the page.  It has a z-index of 10, and should always have
+a higher z-index than any other page elements.
+
+<h2>some content</h2>
+<h2>some content</h2>
+<h2>some content</h2>
+<h1>some content</h1>
+<h1>some content</h1>
+<h2>some content</h2>    <h1>some content</h1>
+<h1>some content</h1>
+<h2>some content</h2>
+<h2>some content</h2>
+<h2>some content</h2>
+<h2>some content</h2>
+<h1>some content</h1>
+<h1>some content</h1>
+<h2>some content</h2>    <h1>some content</h1>
+<h1>some content</h1>
+<h2>some content</h2>
+
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-animate.js"></script>
+<script src="app.module.js"></script>
+<script src="bloomingMenu.directive.js"></script>
+</body>
+</html>
